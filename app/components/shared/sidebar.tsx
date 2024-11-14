@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { Facebook, Instagram, Dribbble } from "lucide-react";
+import { Facebook, Instagram, Github } from "lucide-react";
 import React from "react";
 
 interface propTypes {
@@ -32,13 +32,13 @@ export const Sidebar = ({ children }: propTypes) => {
           </motion.button>
         </nav>
         <div className="mt-auto">
-          <p className="text-sm mb-2">hello@hubfolio.agency</p>
-          <p className="text-sm mb-4">(+010) 523 68 69</p>
-          <p className="text-sm mb-8">Based in Sanfrancisco, CA</p>
+          <p className="text-sm mb-2">sidddhartha.sunuwar@gmail.com</p>
+          <p className="text-sm mb-4">(+977) 9819682900</p>
+          <p className="text-sm mb-8">Kathmandu, Nepal</p>
           <div className="flex space-x-4">
             <Facebook size={20} />
             <Instagram size={20} />
-            <Dribbble size={20} />
+            <Github size={20} />
           </div>
           <p className="text-xs mt-8">© 2024, All Rights Reserved</p>
         </div>
