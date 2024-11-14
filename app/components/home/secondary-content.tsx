@@ -71,7 +71,7 @@ export const SecondaryContent = () => {
             My Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {Projects.map((project, i) => (
+            {Projects.map((project) => (
               <motion.div
                 key={project.id}
                 initial="hidden"
