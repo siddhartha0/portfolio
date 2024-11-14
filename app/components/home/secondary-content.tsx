@@ -36,7 +36,7 @@ export const SecondaryContent = () => {
               Welcome to My Portfolio
             </h1>
             <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
-              I'm a passionate web developer creating amazing digital
+              I am a passionate web developer creating amazing digital
               experiences
             </p>
             <Button className="mr-4">View Projects</Button>
@@ -52,12 +52,12 @@ export const SecondaryContent = () => {
               About Me
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              I'm a skilled web developer with experience in creating responsive
-              and user-friendly websites. My expertise includes React, Next.js,
-              and Tailwind CSS.
+              I am a skilled web developer with experience in creating
+              responsive and user-friendly websites. My expertise includes
+              React, Next.js, and Tailwind CSS.
             </p>
             <p className="text-gray-600 dark:text-gray-300">
-              When I'm not coding, you can find me exploring new technologies,
+              When I am not coding, you can find me exploring new technologies,
               contributing to open-source projects, or enjoying a good cup of
               coffee.
             </p>
@@ -104,8 +104,8 @@ export const SecondaryContent = () => {
               Get in Touch
             </h2>
             <p className="text-gray-600 dark:text-gray-300 mb-8">
-              I'm always open to new opportunities and collaborations. Feel free
-              to reach out!
+              I am always open to new opportunities and collaborations. Feel
+              free to reach out!
             </p>
             <div className="flex justify-center space-x-4">
               <Button variant="outline" className="flex items-center">
