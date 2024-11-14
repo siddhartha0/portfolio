@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "../shared/Button";
 import { Card, CardContent } from "../shared/Card";
+import { Projects } from "@/app/constant/projects";
 
 export const SecondaryContent = () => {
   const fadeIn = {
@@ -69,18 +70,20 @@ export const SecondaryContent = () => {
             My Projects
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((i) => (
+            {Projects.map((project, i) => (
               <motion.div
-                key={i}
+                key={project.id}
                 initial="hidden"
                 animate={controls}
                 variants={fadeIn}
               >
                 <Card>
                   <CardContent className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">Project {i}</h3>
+                    <h3 className="text-xl font-semibold mb-2">
+                      {project.title}
+                    </h3>
                     <p className="text-gray-600 dark:text-gray-300 mb-4">
-                      A brief description of project {i} and its key features.
+                      {project.desc}
                     </p>
                     <Button variant="outline" className="w-full">
                       View Project
