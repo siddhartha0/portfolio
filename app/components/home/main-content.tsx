@@ -51,10 +51,14 @@ export const MainContent = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.2, duration: 0.8 }}
       >
-        <h3 className="font-bold mb-2">Based in Boston, MA.</h3>
+        <h3 className="font-bold mb-2">Key Skills :</h3>
         <p className="text-sm">
-          We're an agency that focused on crafting experience design &
-          development digital products.
+          Frontend: React, HTML, CSS, JavaScript, Redux
+          <br />
+          Backend: Node.js, Express.js
+          <br />
+          Database: SQL, NO-SQL <br />
+          Tools: Git, GitHub, Postman, VS Code
         </p>
       </motion.div>
       <div className="absolute bottom-12 right-12 flex space-x-2">
