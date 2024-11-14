@@ -7,6 +7,7 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "../shared/Button";
 import { Card, CardContent } from "../shared/Card";
 import { Projects } from "@/app/constant/projects";
+import Link from "next/link";
 
 export const SecondaryContent = () => {
   const fadeIn = {
@@ -86,7 +87,7 @@ export const SecondaryContent = () => {
                       {project.desc}
                     </p>
                     <Button variant="outline" className="w-full">
-                      View Project
+                      <Link href={project.url}>View Project</Link>
                     </Button>
                   </CardContent>
                 </Card>

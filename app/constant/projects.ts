@@ -8,13 +8,13 @@ export const Projects = [
   {
     id: 2,
     title: "Room Finder",
-    desc: "Room finder website. Basically focus on finding the nearest hostel inside the kathmandu valley.",
+    desc: "Website which focus on finding the nearest hostel inside the kathmandu valley.",
     url: "https://city-hostel-zeta.vercel.app/",
   },
   {
     id: 3,
     title: "Construction site",
-    desc: "Engineering site. Which gives the basic information about the company",
+    desc: "Engineering website, Which gives the basic information about the company to attract the client.",
     url: "https://prime-civil-lab.vercel.app/",
   },
 ];
