@@ -11,27 +11,21 @@ interface propTypes {
 
 export const Sidebar = ({ children }: propTypes) => {
   return (
-    <div className="flex min-h-screen bg-gray-900 text-white">
-      <aside className="w-64 bg-black p-8 flex flex-col">
-        <div className="mb-12">
-          <Image
-            src="/placeholder.svg?height=80&width=80"
-            alt="Hubfolio Logo"
-            width={80}
-            height={80}
-            className="rounded-full bg-white p-2"
-          />
+    <div className="flex min-h-screen   bg-gray-900 text-white justify-between  gap-9">
+      <aside className="w-64 bg-black p-8 flex flex-col justify-around ">
+        <div>
+          <p className="text-xl ">Portfoilo</p>
         </div>
-        <nav className="mb-auto">
-          <motion.button
-            className="text-lg font-semibold mb-4 block"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            Menu
-          </motion.button>
-        </nav>
-        <div className="mt-auto">
+
+        <Image
+          src="/logo.png?height=120&width=120"
+          alt="Hubfolio Logo"
+          width={160}
+          height={160}
+          className="rounded-full  p-2"
+        />
+
+        <div className="">
           <p className="text-sm mb-2">sidddhartha.sunuwar@gmail.com</p>
           <p className="text-sm mb-4">(+977) 9819682900</p>
           <p className="text-sm mb-8">Kathmandu, Nepal</p>
