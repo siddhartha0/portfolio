@@ -11,8 +11,8 @@ interface propTypes {
 
 export const Sidebar = ({ children }: propTypes) => {
   return (
-    <div className="flex min-h-screen   bg-gray-900 text-white justify-between  gap-9">
-      <aside className="w-64 bg-black p-8 flex flex-col justify-around ">
+    <div className="flex    bg-gray-900 text-white justify-between  gap-9">
+      <aside className="w-64 fixed top-0 left-0 min-h-screen bg-black p-8 flex flex-col justify-around ">
         <div>
           <p className="text-xl ">Portfoilo</p>
         </div>
@@ -37,7 +37,7 @@ export const Sidebar = ({ children }: propTypes) => {
           <p className="text-xs mt-8">© 2024, All Rights Reserved</p>
         </div>
       </aside>
-      {children}
+      <div className="pl-64">{children}</div>
     </div>
   );
 };
